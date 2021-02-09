@@ -2,9 +2,10 @@
  * @Author: Shihao Lu 
  * @Date: 2021-02-08 22:45:03 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-02-09 22:49:53
+ * @Last Modified time: 2021-02-09 22:57:56
  */
 
+// 数组中重复的数字
 const aList = [6, 4, 1, 2, 0, 5, 3]
 
 const aFunction = (aList) => {
@@ -21,4 +22,5 @@ const aFunction = (aList) => {
     return -1
 }
 
-console.log(aFunction(aList))
+const result = aFunction(aList)
+console.log(result)

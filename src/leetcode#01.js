@@ -2,9 +2,10 @@
  * @Author: Shihao Lu 
  * @Date: 2021-02-09 22:45:09 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-02-09 22:53:02
+ * @Last Modified time: 2021-02-09 22:58:56
  */
 
+ // 两数之和
 const nums = [3,2,4,15]
 const target = 6
 
@@ -17,6 +18,5 @@ const twoSum = function(nums, target) {
     }
 };
 
-// console.log(twoSum(nums, target))
-const x = twoSum(nums, target)
-console.log(x)
+const result = twoSum(nums, target)
+console.log(result)
