@@ -1,4 +1,9 @@
-// 2021/2/9
+/*
+ * @Author: Shihao Lu 
+ * @Date: 2021-02-08 22:45:12 
+ * @Last Modified by: Shihao Lu
+ * @Last Modified time: 2021-02-09 22:49:43
+ */
 
 const aMetric = [
     [1,   4,  7, 11, 15],
