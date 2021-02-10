@@ -2,19 +2,10 @@
  * @Author: Shihao Lu 
  * @Date: 2021-02-08 22:45:12 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-02-09 22:59:00
+ * @Last Modified time: 2021-02-10 18:31:36
  */
 
  // 二维数组中的查找
-const aMetric = [
-    [1,   4,  7, 11, 15],
-    [2,   5,  8, 12, 19],
-    [3,   6,  9, 16, 22],
-    [10, 13, 14, 17, 24],
-    [18, 21, 23, 26, 30]
-  ]
-
-const aTarget = 30
 
 const searchMatrix = function(matrix, target) {
     let col = matrix[0].length - 1, 
@@ -37,5 +28,14 @@ const searchMatrix = function(matrix, target) {
     return false
 };
 
+const aMetric = [
+    [1,   4,  7, 11, 15],
+    [2,   5,  8, 12, 19],
+    [3,   6,  9, 16, 22],
+    [10, 13, 14, 17, 24],
+    [18, 21, 23, 26, 30]
+  ]
+const aTarget = 30
 const result = searchMatrix(aMetric)
+
 console.log(result)
