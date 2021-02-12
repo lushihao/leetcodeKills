@@ -2,7 +2,7 @@
  * @Author: Shihao Lu 
  * @Date: 2021-02-12 22:11:16 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-02-12 22:21:46
+ * @Last Modified time: 2021-02-12 22:33:41
  */
 
 // 爬楼梯
@@ -18,6 +18,9 @@ const climbStair = (n: number): number => {
 }
 
 const n: number = 4
-const result70: number = climbStair(n)
+const result: number = climbStair(n)
 
-console.log(result70)
+console.log(result)
+
+export {}
+
