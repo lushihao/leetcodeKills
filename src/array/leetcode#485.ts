@@ -1,3 +1,10 @@
+/*
+ * @Author: Shihao Lu 
+ * @Date: 2021-02-15 17:11:00 
+ * @Last Modified by:   Shihao Lu 
+ * @Last Modified time: 2021-02-16 17:11:00 
+ */
+
 function findMaxConsecutiveOnes(nums: number[]): number {
     let count: number = 0
     let currentCount: number = 0
