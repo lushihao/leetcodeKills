@@ -1,26 +1,17 @@
-// const a = new Set([1,2])
-// const b = new Set([1,2])
-// const c = a === b ? 't' : "f"
-// console.log(c)
-
-
-const aFunction = (n: string[]): number => {
-    for(let i of n) {
-        console.log(i)
-        if(i !== "cc") {
-            aFunction(["cc"])
-            console.log('11')
+function twoSum(nums: number[], target: number): number[] {
+    const numsLen: number = nums.length
+    for(let i = 0; i < numsLen; i++ ) {
+        let index: number = nums.indexOf(target - nums[i])
+        if( i != index && index != -1) {
+            return [i, index]
         }
-        console.log('22')
     }
-    return 1
-
 }
 
-const a: string[] = ["aa", "bb", "cc"]
-const result: number = aFunction(a)
+const aList = [3,2,4]
+
+const target = 6
+
+const result = twoSum(aList, target)
 
 console.log(result)
-
-export {}
-
