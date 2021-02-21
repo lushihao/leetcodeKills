@@ -1,8 +1,9 @@
 # leetcodeKills
 ### Leetcode
-|Question Code | Type  
+|Question Code | Type  | Method |
 |:---:|:---|  
 |001  |Array|  
+|002  |LinkedList|  
 |003  |String|  
 |070  |DP|  
 |076  |String|  
@@ -20,6 +21,7 @@
 <br/>  
 
 ### 剑指Offer
-|Question Code | Type  
+|Question Code | Type  | Method |
 |:---:|:---|  
 |003  |Array| 
+|040  |Array| 
