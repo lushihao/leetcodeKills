@@ -2,27 +2,19 @@
  * @Author: Shihao Lu 
  * @Date: 2021-02-21 11:30:05 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-02-21 15:31:40
+ * @Last Modified time: 2021-02-25 20:18:02
  */
 
 
- const aArray: number[] = [4, 5, 6, 3, 1, 2]
+const aList = [1, 1, 2, 3, 4, 5, 7]
 
-function bubbleSort(aArray: number[]): void {
-    const arrayLength: number = aArray.length
-    let flag: boolean = true
-    for (let i = 0; i < arrayLength - 1 ; i++ ) {
-        if(!flag) break
-        for (let j = 0; j < arrayLength - i - 1; j ++) {
-            if (aArray[j] > aArray[j + 1]) {
-                const temp: number = aArray[j]
-                aArray[j] = aArray[j + 1]
-                aArray[j + 1] = temp
-                flag = true
-            }
-        }
-    }
- } 
+const x = Array.from(new Set(aList))
+let bList = []
+console.log(x)
 
-bubbleSort(aArray)
-console.log(aArray)
+x.map((value, index) => {
+    console.log(x)
+    bList[value] = value
+})
+
+console.log(bList)

@@ -8,6 +8,7 @@
 |070  |DP|  
 |076  |String|  
 |121  |DP|  
+|206  |LinkedList| Stack
 |238  |Array| Double Pointers  
 |240  |Array|  
 |322  |DP| 
