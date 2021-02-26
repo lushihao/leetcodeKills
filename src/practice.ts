@@ -2,19 +2,10 @@
  * @Author: Shihao Lu 
  * @Date: 2021-02-21 11:30:05 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-02-25 20:18:02
+ * @Last Modified time: 2021-02-26 22:38:47
  */
 
 
-const aList = [1, 1, 2, 3, 4, 5, 7]
-
-const x = Array.from(new Set(aList))
-let bList = []
-console.log(x)
-
-x.map((value, index) => {
-    console.log(x)
-    bList[value] = value
-})
-
-console.log(bList)
+const aList = [1, 2]
+aList[0], aList[1] = 2, 1
+console.log(aList)

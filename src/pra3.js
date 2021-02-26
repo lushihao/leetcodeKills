@@ -1,30 +1,24 @@
+let nums1 = [1,2,3,0,0,0]
+const m = 3
+const n = 3
+let nums2 = [2,5,6]
 
-const aList = [1, 1, 2, 3, 4, 5, 7, 10]
+// nums1.pop()
+// nums1.splice(0, m).push.apply(nums1.splice(0, m), nums2.splice(0, n))
 
-const x = Array.from(new Set(aList))
-let bList = []
+nums1.splice(m)
+nums2.splice(n)
+nums2.push.apply(nums1, nums2)
+// nums1.sort()
+// x = nums1.concat(...nums2)
+// console.log(nums1.slice(0, m).push.apply(nums1.slice(0, m), nums2.slice(0, n)))
+console.log(nums2)
+console.log(nums1)
 
-x.map((value, index) => {
-    bList[value] = value
-})
-
-console.log(bList)
-let valueList = []
-let valueA = 0
-
-let counter = 0
-for( let value of bList) {
-    if(!value) {
-        counter += 1
-        valueList.push(valueA)
-    }
-    valueA += 1
-
-}
+const x = Math.max.apply([1, 7], [1,2,3]); // 也会返回 3
+console.log(x)
 
 
-// console.log(counter, valueList)
 
-const aStrting = 'hi hello world.'
-const bString = aStrting.split(' ').reverse().join(' ')
-console.log(bString)
+
+
