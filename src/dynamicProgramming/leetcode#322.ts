@@ -26,7 +26,7 @@ function coinChange(coins: number[], amount: number): number {
 }
 
 const coins: number[] = [1, 2, 5]
-const amount: number = 110
+const amount: number = 4
 
 const result: number = coinChange(coins, amount)
 console.log(result)

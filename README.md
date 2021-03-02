@@ -5,13 +5,16 @@
 |001  |Array|  
 |002  |LinkedList|  
 |003  |String|  
+|021  |LinkedList|  
 |053  |Array| DP  
 |070  |DP|  
 |076  |String|  
 |088  |Array| None  
 |121  |Array| DP
+|147  |LinkedList| Insert Sort
 |206  |LinkedList| Stack
 |235  |Tree| Binary Search
+|236  |Tree| recursion
 |238  |Array| Double Pointers  
 |240  |Array|  
 |322  |DP| 
