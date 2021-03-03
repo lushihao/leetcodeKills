@@ -15,5 +15,5 @@
 
 // console.log(head)
 
-const arr = [0, 1, 2, 3, 4]
-console.log(arr[1])
+const a = 'AB'
+console.log(a.charCodeAt(1) - 'A'.charCodeAt())

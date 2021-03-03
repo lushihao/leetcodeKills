@@ -11,7 +11,9 @@
 |076  |String|  
 |088  |Array| None  
 |121  |Array| DP
+|141  |LinkedList| Double Pointers
 |147  |LinkedList| Insert Sort
+|160  |LinkedList| Double Pointers
 |206  |LinkedList| Stack
 |235  |Tree| Binary Search
 |236  |Tree| recursion
