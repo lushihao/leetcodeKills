@@ -9,6 +9,7 @@
 |053  |Array| DP  
 |070  |DP|  
 |076  |String|  
+|083  |LinkedList| 
 |088  |Array| None  
 |121  |Array| DP
 |141  |LinkedList| Double Pointers
