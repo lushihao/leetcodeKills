@@ -1,19 +1,77 @@
-// const { allowedNodeEnvironmentFlags } = require("process")
 
-// class LinkedNode {
-//     constructor(val, next) {
-//         this.val = (val === undefined ? 0 : val)
-//         this.next = (next === undefined ? null : next)
+class LinkedNode {
+    constructor(val, next) {
+        this.val = (val === undefined ? 0 : val)
+        this.next = (next === undefined ? null : next)
+    }
+}
+const head = new LinkedNode(2)
+head.next = new LinkedNode(4)
+head.next.next = new LinkedNode(1, new LinkedNode(3))
+
+// const name = 'sss'
+// class Father {
+//     constructor(name, age) {
+//         this.name = name
+//         this.age = age
+//     }
+//     say (){
+//         console.log(this.name)
 //     }
 // }
-// const head = new LinkedNode(2)
-// head.next = new LinkedNode(4)
-// head.next.next = new LinkedNode(1, new LinkedNode(3))
 
 
+// class Son extends Father {
+//     constructor(name, age) {
+//         super(name)
+//         this.age = age
+//     }
+// }
 
+// // Son.prototype.say = function () {
+// //     console.log(this.name)
+// // }
+// const father = new Father('Shihao', 24)
+// const son = new Son('xiaoer', 1)
 
-// console.log(head)
+// const result = new Array(3).fill(0).map(() => new Array(4).fill(0))
 
-const a = 'AB'
-console.log(a.charCodeAt(1) - 'A'.charCodeAt())
+// console.log(result)
+
+function Father (name) {
+    this.name = name
+}
+
+Father.prototype.sayName = function () {
+    console.log(this.name)
+}
+
+let father = new Father('Shihao')
+
+function Son () {
+    Father.apply(this, arguments)
+}
+Son.prototype = Object.create(Father.prototype)
+Son.prototype.constructor = Son
+
+const son = new Son('ss', 10)
+son.sayName()
+
+// let name = 'Shihao'
+// let me = { 
+//     name: "Ashutosh Verma", 
+//     thisInArrow:() => { 
+//     console.log("My name is " + name); // no 'this' binding here 
+//     }, 
+//     thisInRegular(){ 
+//     console.log("My name is " + this.name); // 'this' binding works here 
+//     } 
+//    };
+// me.thisInArrow(); 
+// me.thisInRegular();
+
+// function myFunction() {
+//     console.log(arguments);
+//   }
+  
+//   myFunction('a', 'b'); // logs { 0: 'a', 1: 'b'}
