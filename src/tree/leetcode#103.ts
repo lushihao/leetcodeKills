@@ -1,11 +1,11 @@
 /*
  * @Author: Shihao Lu 
- * @Date: 2021-03-05 22:49:07 
+ * @Date: 2021-03-10 21:04:01 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-03-10 21:06:43
+ * @Last Modified time: 2021-03-10 21:05:02
  */
 
- /**
+/**
  * Definition for a binary tree node.
  * class TreeNode {
  *     val: number
@@ -19,30 +19,37 @@
  * }
  */
 
- // 二叉树的层序遍历
-function levelOrder(root: TreeNode | null): number[][] {
+ // 二叉树的锯齿形层序遍历
+ function zigzagLevelOrder(root: TreeNode | null): number[][] {
+    const result: number [][] = []
     if(!root) {
-        return []
+        return result
     }
 
-    let result = []
-    let queue = [root]
+    const queue = [root]
+    let level = 0
 
     while(queue.length) {
-        let level = queue.length
-        let currLevelNodes = []
+        const currLevelNodes = []
+        const len = queue.length
+        level++
 
-        for(let i = 0; i< level; i++) {
+        for (let i = 0; i < len; i++) {
             let currNode = queue.shift()
+            if (level % 2 === 1) {
+                currLevelNodes.push(currNode.val)
+            } else {
+                currLevelNodes.unshift(currNode.val)
+            }
             if(currNode.left) {
                 queue.push(currNode.left)
             }
             if(currNode.right) {
                 queue.push(currNode.right)
             }
-            currLevelNodes.push(currNode.val)
         }
         result.push(currLevelNodes)
     }
     return result
-};
+ }
+    export{}

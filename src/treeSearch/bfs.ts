@@ -59,3 +59,4 @@ function bfs(root: TreeNode) {
 const a = bfs(root)
 
 console.log(a)
+export{}

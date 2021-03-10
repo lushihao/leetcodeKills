@@ -6,16 +6,22 @@
 |002  |LinkedList|  
 |003  |String|  
 |003  |String| Stack
+|007  |Number| Stack
+|009  |Number| Math
 |021  |LinkedList|  
+|026  |Array|  
 |053  |Array| DP  
 |070  |DP|  
 |076  |String|  
 |083  |LinkedList| 
 |088  |Array| None  
 |102  |Tree| BFS
+|103  |Tree| BFS
 |121  |Array| DP
+|125  |Array| Double Pointers
 |141  |LinkedList| Double Pointers
 |147  |LinkedList| Insert Sort
+|155  |Design
 |160  |LinkedList| Double Pointers
 |203  |LinkedList| 
 |206  |LinkedList| Stack  
@@ -29,6 +35,7 @@
 |448  |Array| 
 |485  |Array| 
 |509  |DP|  
+|557  |Array|  
 |561  |Greed|  
 |566  |Array|  
 |876  |Array| Double Pointers  

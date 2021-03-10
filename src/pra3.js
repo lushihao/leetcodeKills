@@ -55,7 +55,6 @@ Son.prototype = Object.create(Father.prototype)
 Son.prototype.constructor = Son
 
 const son = new Son('ss', 10)
-son.sayName()
 
 // let name = 'Shihao'
 // let me = { 
@@ -75,3 +74,15 @@ son.sayName()
 //   }
   
 //   myFunction('a', 'b'); // logs { 0: 'a', 1: 'b'}
+// const aString = 'abcde'
+// function reverse(s) {
+//     let o = '';
+//     for (let i = s.length - 1; i >= 0; i--){
+//      o += s[i];
+//     }
+//     return o;
+//   }
+
+const a = "Let's take LeetCode contest"
+const b = a.split('').reverse().join('')
+console.log(b.split(' ').reverse().join(' '))
