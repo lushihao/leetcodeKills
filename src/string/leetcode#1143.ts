@@ -2,18 +2,17 @@
  * @Author: Shihao Lu 
  * @Date: 2021-03-06 21:30:45 
  * @Last Modified by: Shihao Lu
- * @Last Modified time: 2021-03-06 21:34:28
+ * @Last Modified time: 2021-03-11 22:26:23
  */
 
 //最长公共子序列
 
 function longestCommonSubsequence(text1: string, text2: string): number {
-    const text1Len: number = text1.length 
-    const text2Len: number = text2.length 
-    const result = new Array(text2Len + 1).fill(0).map(() => new Array(text2Len + 1).fill(0))
+    const text1Len = text1.length 
+    const text2Len = text2.length 
+    const result = new Array(text1Len + 1).fill(0).map(() => new Array(text2Len + 1).fill(0))
 
     for (let i = 0; i < text1Len; i++) {
-        console.log(result)
         for( let j = 0; j < text2Len; j++) {
             if(text1[i] === text2[j]) {
                 result[i+1][j+1] = result[i][j] + 1

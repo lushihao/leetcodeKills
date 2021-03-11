@@ -8,6 +8,7 @@
 |003  |String| Stack
 |007  |Number| Stack
 |009  |Number| Math
+|013  |String| 
 |021  |LinkedList|  
 |026  |Array|  
 |053  |Array| DP  
@@ -23,8 +24,10 @@
 |147  |LinkedList| Insert Sort
 |155  |Design
 |160  |LinkedList| Double Pointers
+|169  |Array| 
 |203  |LinkedList| 
 |206  |LinkedList| Stack  
+|232  |Design
 |234  |LinkedList| Double Pointers
 |235  |Tree| Binary Search
 |236  |Tree| recursion

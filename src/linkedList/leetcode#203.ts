@@ -1,3 +1,10 @@
+/*
+ * @Author: Shihao Lu 
+ * @Date: 2021-03-05 22:13:57 
+ * @Last Modified by: Shihao Lu
+ * @Last Modified time: 2021-03-11 22:26:24
+ */
+
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -11,7 +18,7 @@
  */
 
  // 移除链表元素
- 
+
 function removeElements(head: ListNode | null, val: number): ListNode | null {
     let sentinel = new ListNode(0)
     sentinel.next = head
