@@ -12,6 +12,7 @@
 |021  |LinkedList|  
 |026  |Array|  
 |053  |Array| DP  
+|054  |Array| 
 |070  |DP|  
 |076  |String|  
 |083  |LinkedList| 
@@ -25,6 +26,7 @@
 |155  |Design
 |160  |LinkedList| Double Pointers
 |169  |Array| 
+|200  |Array| DFS
 |203  |LinkedList| 
 |206  |LinkedList| Stack  
 |232  |Design
