@@ -6,11 +6,13 @@
 |002  |LinkedList|  
 |003  |String|  
 |003  |String| Stack
+|006  |String| Stack
 |007  |Number| Stack
 |009  |Number| Math
 |013  |String| 
 |021  |LinkedList|  
 |026  |Array|  
+|033  |Array| Binary Search
 |053  |Array| DP  
 |054  |Array| 
 |070  |DP|  
@@ -23,6 +25,7 @@
 |125  |Array| Double Pointers
 |141  |LinkedList| Double Pointers
 |147  |LinkedList| Insert Sort
+|121  |Array| 
 |155  |Design
 |160  |LinkedList| Double Pointers
 |169  |Array| 

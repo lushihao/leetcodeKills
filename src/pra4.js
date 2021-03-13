@@ -9,5 +9,5 @@
 // },function(err){
 //     console.log('err',err)
 // })
-const a = [1, 2, 3]
-console.log(a[5])
+let a = [1, 2]
+console.log(a instanceof Object)
